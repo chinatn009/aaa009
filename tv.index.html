@@ -1,20 +1,4 @@
-<!-- 这是你 index.html 里的脚本，放在原有路由初始化代码之前 -->
-<script type="text/javascript">
-    (function() {
-        // 解析 URL 参数
-        var redirect = decodeURIComponent((new URLSearchParams(window.location.search)).get('redirect') || '');
-        if (redirect && redirect != '/') {
-            // 使用你的前端路由库（如 Vue Router, React Router）来跳转到目标路径
-            // 例如，对于 History API:
-            // history.replaceState(null, null, redirect);
-            // 或者直接调用你的路由器的 push 或 replace 方法
-            // router.replace(redirect);
-
-            // 简单示例：直接修改浏览器地址栏（假设你的 SPA 能监听 popstate 事件）
-            window.history.replaceState(null, null, redirect);
-        }
-    })();
-</script>
+家用电视,#genre#
 绮惧僵褰辫,rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000396?AuthInfo=xxx&userid=gf001&userid=gf001;igmp://225.0.4.231:7980
 CHC瀹跺涵褰遍櫌,rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000393?AuthInfo=xxx&userid=gf001&userid=gf001;igmp://225.0.4.228:7980
 CHC鍔ㄤ綔鐢靛奖,rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000392?AuthInfo=xxx&userid=gf001&userid=gf001;igmp://225.0.4.229:7980
@@ -134,4 +118,5 @@ CQTV绉诲姩,rtsp://123.147.112.17:8089/04000001/010000000040000000000000000002
 婀栧崡鍗4K,rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000439?
 鍥涘窛鍗4K,rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000441?
 
-,"pushURL":"","status":"","timeShift":"","timeShiftUrl":"","total":""}]HTTP/1.1 200 OK
+
+
